@@ -1,0 +1,24 @@
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Poppins", sans-serif;
+}
+.container {
+  width: 1440px;
+  padding: 10px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  margin-bottom: 102px;
+}
+header {
+  margin-bottom: 102px;
+}

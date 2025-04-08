@@ -1,0 +1,165 @@
+.testimoniast-container {
+    max-width: 1194px;
+    width: 100%;
+    padding: 0px 115px 0px 64px;
+}
+  
+
+  .testimoniast-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    margin-bottom: 84px;
+  }
+  
+  
+  .testimoniast-left {
+    position: relative;
+    max-width: 445px;
+    width: 100%;
+  }
+  
+  
+  .testimoniast-title {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 133%;
+    color: #18191f;
+    padding-bottom: 8px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .testimoniast-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+    color: #18191f;
+    position: relative;
+    z-index: 2;
+  }
+  
+
+  .quote-img {
+    position: absolute;
+    top: -55px;
+    left: -85px;
+    width: 143px;
+    z-index: 1;
+    opacity: 0.3;
+  }
+  
+  
+  .testimoniast-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 560px;
+    width: 100%;
+  }
+  
+
+  .testimoniast-card1, 
+  .testimoniast-card2, 
+  .testimoniast-card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(41, 41, 42, 0.07);
+    padding: 32px;
+  }
+
+ .testimoniast-card1,
+ .testimoniast-card3 {
+    width: 350px;
+
+ }
+  .testimoniast-card2 {
+    width: 445px;
+  }
+  
+
+  
+
+  .testimoniast-logo {
+    width: 120px;
+    height: auto;
+  
+  }
+  
+
+  .testimoniast-card-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000;
+    padding-bottom: 24px;
+  }
+  
+
+  .testimoniast-name {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 156%;
+    color: #18191f;
+  }
+  
+
+  .testimoniast-role {
+    font-size: 13px;
+    color: #999;
+  }
+
+  .testimoniast-bottom {
+    width: 100%;
+  display: flex;
+  justify-content: space-between; 
+  }
+  
+ 
+  .testimoniast-content {
+    max-width: 445px;
+    width: 100%;
+  }
+  
+  
+  .testimoniast-subtitle {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 133%;
+    color: #18191f;
+    padding-bottom: 8px;
+  }
+  
+  .testimoniast-subtext {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+    color: #18191f;
+  }
+  
+
+  .testimoniast-logos {
+    max-width: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    flex: 1;
+  }
+
+  .testimoniast-logos-img {
+    width: 120px;
+height: 120px;
+  }
+  

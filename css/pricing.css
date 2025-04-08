@@ -1,0 +1,227 @@
+
+.pricing-container {
+    max-width: 1097px;
+    width: 100%;
+}
+
+.pricing-content {
+text-align: center;
+    padding: 0 120px 80px;
+}
+.pricing-title {
+    font-family: var(--second-family);
+font-weight: 600;
+font-size: 50px;
+line-height: 120%;
+color: #000;
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+padding-bottom: 38px;
+}
+.pricing-text {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 25px;
+line-height: 100%;
+color: #000;
+text-align: center;
+padding-bottom: 57px;
+}
+
+.pricing-btn-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 85px;
+    margin-left: 100px;
+  }
+  
+  .option {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 93px;
+    height: 50px;
+    border-radius: 73px;
+  }
+  
+  /* Сховати чекбокс */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #b00000;
+    border-radius: 73px;
+    transition: 0.4s;
+  }
+  
+  .slider::before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    left: 7px;
+    top: 7px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+  }
+  
+  /* Коли активовано (чекбокс у стані checked) */
+  .switch input:checked + .slider::before {
+    transform: translateX(43px);
+  }
+  
+
+
+.sale {
+    padding: 8px;
+    border-radius: 8px;
+width: 87px;
+height: 24px;
+background: #ffe87a;
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 10px;
+line-height: 90%;
+text-align: center;
+color: #000;
+}
+
+.tab-selector {
+    display: flex;
+    border-bottom: 4px solid #c4c4c4;
+    max-width: 856px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .tab {
+    flex: 1; 
+    text-align: center;
+    position: relative;
+    background: none;
+    border: none;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 133%;
+    color: #000;
+    cursor: pointer;
+    padding-bottom: 7px;
+  }
+  
+  .tab.active::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #b00000;
+   
+  }
+  
+  
+.why-us-cards {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.why-us-card {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 30px 48px 35px;
+    border: 1.50px solid #c4c4c4;
+border-radius: 15px;
+max-width: 299px;
+width: 100%;
+box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.25);
+background: #fff;
+}
+.why-us-card-title {
+    padding-bottom: 11px;
+    font-family: var(--second-family);
+font-weight: 600;
+font-size: 28px;
+line-height: 89%;
+color: #000;
+}
+.why-us-card-text {
+    padding-bottom: 28px;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+color: #000;
+}
+.why-us-price {
+    padding-bottom: 11px;
+    font-family: var(--second-family);
+font-weight: 600;
+font-size: 42px;
+line-height: 76%;
+color: #000;
+}
+.why-us-price-text {
+    padding-bottom: 44px;
+    font-family: var(--second-family);
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+color: #000;
+}
+.why-us-card-btn {
+    border: 2px solid #000;
+border-radius: 12px;
+width: 235px;
+height: 50px;
+background: #fff;
+font-family: var(--second-family);
+font-weight: 600;
+font-size: 14px;
+line-height: 229%;
+text-align: center;
+color: #000;
+margin-bottom: 35px;
+}
+.why-us-card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.why-us-card-item {
+    display: flex;
+  align-items: flex-start;
+  gap: 24px;
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+color: #808080;
+}
+.why-us-card-item span {
+    font-weight: bold;
+    line-height: 1;
+    color: #000;;
+    margin-top: 3px;
+  }

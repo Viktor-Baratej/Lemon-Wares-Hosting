@@ -1,11 +1,432 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lemon Wares</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lemon Wares Hosting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:wght@200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:wght@200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/resset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="stylesheet" href="./css/why-us.css" />
+    <link rel="stylesheet" href="./css/pricing.css" />
+    <link rel="stylesheet" href="./css/testimoniast.css" />
+    <link rel="stylesheet" href="./css/cta.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a href="./Index.html" class="header-logo"
+          ><img
+            src="./img/Rectangle_3.png"
+            width="90"
+            height="60"
+            alt="LOGO"
+        /></a>
+        <nav class="header-nav">
+          <div class="header-nav-left">
+            <a class="active">Our Services</a>
+          </div>
+          <div class="header-nav-center">
+            <a href="">About</a>
+            <a href="">Blog&News</a>
+            <a href="">Contact </a>
+          </div>
+          <div class="header-nav-right">
+            <a href="">Account</a>
+          </div>
+        </nav>
+        <div class="header-phone">
+          <span class="divider"></span>
+          <a href="tel:+2349067322844" class="header-tel">
+            <img
+              class="header-img-tel"
+              
+              src="./img/Vector.png"
+              alt="tel"
+              width="20"
+              height="20"
+            />
+            +2349067322844
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <div class="links">
+              <a href="#" class="link active">Hosting</a>
+              <a href="#" class="link">Domain</a>
+              <a href="#" class="link">SEO</a>
+              <a href="#" class="link">Email</a>
+            </div>
+
+            <h1 class="hero-title">Premium Web Hosting for Your Website</h1>
+            <p class="hero-text">
+              Blazing fast web hosting for individuals and businesses of all
+              sizes backed by 24x7x365 Support.
+            </p>
+
+            <div class="hero-btn-content">
+              <button class="hero-btn-1" type="button">
+                Create an Account
+              </button>
+              <button class="hero-btn-2" type="button">Choose your plan</button>
+            </div>
+          </div>
+
+            <img class="hero-img" src="./img/Group_6.png" alt="Img" />
+          
+        </div>
+      </section>
+
+      <section class="Why Us">
+        <div class="container why-us-container">
+          <div class="why-us-content1">
+            <div class="why-us-textcontent">
+              <h2 class="why-us-title">True Cloud Web Hosting</h2>
+              <p class="why-us-tetx">
+                True Cloud Web Hosting All of the hosting packages we offer are
+                deployed instantly on our SSD powered cloud. We don’t use
+                dedicated servers that operate on single pieces of hardware. Our
+                entire infrastructure is built to be reliable, secure, and
+                scalable.
+              </p>
+            </div>
+            <div class="why-us-imgcontent">
+              <img
+                src="./img/cPanel_orange_RGB_1.png"
+                width="140"
+                height="30"
+                alt=""
+              />
+              <img
+                src="./img/secured-by-Imunify360-green_1.png"
+                width="125"
+                height="50"
+                alt=""
+              />
+              <img
+                src="./img/litespeed-logo_1.png"
+                width="125"
+                height="54"
+                alt=""
+              />
+              <img
+                src="./img/Rectangle_11.png"
+                width="172"
+                height="92"
+                alt=""
+              />
+              <img
+                src="./img/Rectangle_12.png"
+                width="168"
+                height="56"
+                alt=""
+              />
+              <img
+                src="./img/Rectangle_13.png"
+                width="143"
+                height="47"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="why-us featurescontent">
+            <div class="features-1">
+              <img class="features-img" src="./img/icn1_1.png" alt="clock" />
+              <h3 class="features-title">99.9% Uptime</h3>
+              <p class="features-text">
+                We Keep Your Web build Online 24x7x365. Downtime not only costs
+                you lost visitors but also damages your reputation and search
+                engine rankings.
+              </p>
+            </div>
+            <div class="features-2">
+              <img class="features-img" src="./img/Icon.png" alt="clock" />
+              <h3 class="features-title">Blazing Fast Web Hosting</h3>
+              <p class="features-text">
+                We Keep Your Web build Online 24x7x365. Downtime not only costs
+                you lost visitors but also damages your reputation and search
+                engine rankings.
+              </p>
+            </div>
+            <div class="features-3">
+              <img class="features-img" src="./img/icn4_1.png" alt="clock" />
+              <h3 class="features-title">Free SSL Certificates</h3>
+              <p class="features-text">
+                We Keep Your Web build Online 24x7x365. Downtime not only costs
+                you lost visitors but also damages your reputation and search
+                engine rankings.
+              </p>
+            </div>
+            <div class="features-4">
+              <img class="features-img" src="./img/7_Icon.png" alt="clock" />
+              <h3 class="features-title">24x7 Friendly Support</h3>
+              <p class="features-text">
+                We Keep Your Web build Online 24x7x365. Downtime not only costs
+                you lost visitors but also damages your reputation and search
+                engine rankings.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="Pricing">
+        <div class="container pricing-container">
+          <div class="pricing-content">
+            <h2 class="pricing-title">Ready to get started with Lemon Wares?</h2>
+    <p class="pricing-text">Choose the package that suits you</p>
+  
+    <div class="pricing-btn-content">
+      <span class="option">Monthly</span>
+  
+      <label class="switch">
+        <input type="checkbox" id="billingSwitch" />
+        <span class="slider"></span>
+      </label>
+  
+      <span class="option">Yearly</span>
+      <span class="sale">20% discount</span>
+    </div>
+  
+    <div class="tab-selector">
+      <button class="tab active">Basic</button>
+      <button class="tab">Premium</button>
+    </div>
+  
+          </div>
+          <div class="why-us-cards">
+            <div class="why-us-card">
+              <h3 class="why-us-card-title">Starter</h3>
+              <p class="why-us-card-text">
+                with all your customers via all conversation channels in one
+                central dashboard.
+              </p>
+              <span class="why-us-price">$2.80</span> 
+              <span class="why-us-price-text">Per month</span>
+              <button class="why-us-card-btn">Choose this Plan</button>
+              <ul class="why-us-card-list">
+                <li class="why-us-card-item"><span>✓</span> 2GB SSD</li>
+                <li class="why-us-card-item"><span>✓</span> 0GB Bandwidth</li>
+                <li class="why-us-card-item"><span>✓</span> 15 Email Accounts</li>
+                <li class="why-us-card-item"><span>✓</span>
+                  <strong>Unlimited Database</strong>
+                </li>
+                <li class="why-us-card-item"><span>✓</span> 4 Subdomains</li>
+                <li class="why-us-card-item"><span>✓</span> 1 Parked Domain</li>
+                <li class="why-us-card-item"><span>✓</span> 2 Websites</li>
+                <li class="why-us-card-item"><span>✓</span> Free SSL</li>
+                <li class="why-us-card-item"><span>✓</span> Softaculous</li>
+              </ul>
+            </div>
+
+            <div class="why-us-card">
+              <h3 class="why-us-card-title">Standard</h3>
+              <p class="why-us-card-text">
+                with all your customers via all conversation channels in one
+                central dashboard.
+              </p>
+              <span class="why-us-price">$4.20</span> 
+              <span class="why-us-price-text">Per month</span>
+              <button class="why-us-card-btn">Choose this Plan</button>
+              <ul class="why-us-card-list">
+                <li class="why-us-card-item"><span>✓</span> 2GB SSD</li>
+                <li class="why-us-card-item"><span>✓</span> 0GB Bandwidth</li>
+                <li class="why-us-card-item"><span>✓</span> 15 Email Accounts</li>
+                <li class="why-us-card-item"><span>✓</span>
+                  <strong>Unlimited Database</strong>
+                </li>
+                <li class="why-us-card-item"><span>✓</span> 4 Subdomains</li>
+                <li class="why-us-card-item"><span>✓</span> 1 Parked Domain</li>
+                <li class="why-us-card-item"><span>✓</span> 2 Websites</li>
+                <li class="why-us-card-item"><span>✓</span> Free SSL</li>
+                <li class="why-us-card-item"><span>✓</span> Softaculous</li>
+              </ul>
+            </div>
+
+            <div class="why-us-card">
+              <h3 class="why-us-card-title">Suprem</h3>
+              <p class="why-us-card-text">
+                with all your customers via all conversation channels in one
+                central dashboard.
+              </p>
+              <span class="why-us-price">$7.00</span> 
+              <span class="why-us-price-text">Per month</span>
+              <button class="why-us-card-btn">Choose this Plan</button>
+              <ul class="why-us-card-list">
+                <li class="why-us-card-item"><span>✓</span> 2GB SSD</li>
+                <li class="why-us-card-item"><span>✓</span> 0GB Bandwidth</li>
+                <li class="why-us-card-item"><span>✓</span> 15 Email Accounts</li>
+                <li class="why-us-card-item"><span>✓</span>
+                  <strong>Unlimited Database</strong>
+                </li>
+                <li class="why-us-card-item"><span>✓</span> 4 Subdomains</li>
+                <li class="why-us-card-item"><span>✓</span> 1 Parked Domain</li>
+                <li class="why-us-card-item"><span>✓</span> 2 Websites</li>
+                <li class="why-us-card-item"><span>✓</span> Free SSL</li>
+                <li class="why-us-card-item"><span>✓</span> Softaculous</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimoniast">
+        <div class="container testimoniast-container">
+          <div class="testimoniast-top">
+            <div class="testimoniast-left">
+              <img src="./img/waw.png" alt="Quote" class="quote-img" />
+              <h2 class="testimoniast-title">Real Stories from <br> Real Customers</h2>
+              <p class="testimoniast-text">Get inspired by these stories.</p>
+      
+              <div class="testimoniast-card1">
+                <img src="./img/Crypto-Learn-Invest-bw-oyl3g9g1y9n29md6xkfxpgebbw87gdfbb0h0u1ci68_2.png" alt="JPNL" class="testimoniast-logo" />
+                <p class="testimoniast-card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elem
+                </p>
+                <span class="testimoniast-name">Floyd Miles</span>
+                <span class="testimoniast-role">Vice President, CLI</span>
+              </div>
+            </div>
     
-</body>
+            <div class="testimoniast-right">
+              <div class="testimoniast-card2">
+                <img src="./img/Jerry-Piping-bw-oyl3forlrwur6778abi56lm69f24r157w64c9y75z4_1.png" alt="JPNL" class="testimoniast-logo" />
+                <p class="testimoniast-card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elem
+                </p>
+                <span class="testimoniast-name">Jane Cooper</span>
+                <span class="testimoniast-role">CEO, JPNL</span>
+              </div>
+      
+              <div class="testimoniast-card3">
+                <img src="./img/LeeveOn-Branding-bw-oyl3fl090kplvrcow9vmwmkbvvknw8qajniecucqo0_1.png" alt="LeeveOn" class="testimoniast-logo" />
+                <p class="testimoniast-card-text">
+                  LemonWares saved our time in Hosting my company page.
+                </p>
+                <span class="testimoniast-name">Kristin Watson</span>
+                <span class="testimoniast-role">Co-Founder, LeeveOn Branding</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimoniast-bottom">
+            <div class="testimoniast-content">
+              <h2 class="testimoniast-subtitle">We serve over 100 Nigerian Websites</h2>
+              <p class="testimoniast-subtext">
+                Connect LemonWares with your favourite tools that you use daily and keep things on track.
+              </p>
+            </div>
+      
+            <div class="testimoniast-logos">
+              <img class="testimoniast-logos-img" src="./img/Jerry-Piping-bw-oyl3forlrwur6778abi56lm69f24r157w64c9y75z4_1.png" alt="JPNL" />
+              <img class="testimoniast-logos-img" src="./img/Korane-Scents-bw-oyl3fj4kmwn18jff792drn1ep3txguitve7feafj0g_1.png" alt="Korane" />
+              <img class="testimoniast-logos-img" src="./img/Nadine-Ghaida-bw-oyl3fly37eqw7dbbqsa9h4bsh9g13xu0vs5vu4bchs_1.png" alt="Nadine" />
+              <img class="testimoniast-logos-img" src="./img/LeeveOn-Branding-bw-oyl3fl090kplvrcow9vmwmkbvvknw8qajniecucqo0_1.png" alt="LeeveOn" />
+              <img class="testimoniast-logos-img" src="./img/Jrango-Glasses-bw-oyl3fi6qg2lqwxgscqnr759y3pyk95f3j9jxx0gx6o_1.png" alt="Jrango" />
+              <img class="testimoniast-logos-img" src="./img/Crypto-Learn-Invest-bw-oyl3g9g1y9n29md6xkfxpgebbw87gdfbb0h0u1ci68_2.png" alt="Crypto" />
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+
+      <section class="CTA">
+        <div class="container cta-content">
+          <h2 class="cta-title">We're here to make your website awesome.</h2>
+          
+            <div class="cta-btn-content">
+              <button class="cta-btn" type="button"><img
+                class="cta-img"
+                src="./img/whatsapp.png"
+                alt="viber"
+              /> Get  in touch with us
+              </button>
+            </div>
+          
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-content">
+          <div class="footer-logo-text">
+            <img
+              class="features-img"
+              src="./img/Lemon-Wares-white-Logo-1500px-wide_1.png"
+              alt="Logo"
+              width="120"
+              height="80"
+            />
+            <p class="footer-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+              purus sit amet luctus venenatis, lectus magna fringilla urna,
+              porttitor rhoncus dolor purus non enim praesent elem
+            </p>
+          </div>
+          <div class="footer-colums">
+            <h4 class="footer-colums-title">Service</h4>
+            <ul class="footer-colums-list">
+              <li class="footer-colums-item"><a href="">Domain</a></li>
+              <li class="footer-colums-item"><a href="">Shared Hosting</a></li>
+              <li class="footer-colums-item"><a href="">Cloud Hosting</a></li>
+              <li class="footer-colums-item"><a href="">Private Hosting</a></li>
+            </ul>
+          </div>
+  
+          <div class="footer-colums">
+            <h4 class="footer-colums-title">Hosting</h4>
+            <ul class="footer-colums-list">
+              <li class="footer-colums-item"><a href="">Cheap Hosting</a></li>
+              <li class="footer-colums-item"><a href="">Hosting Wordpress</a></li>
+              <li class="footer-colums-item"><a href="">Email Hosting</a></li>
+              <li class="footer-colums-item"><a href="">Hosting Unlimited</a></li>
+            </ul>
+          </div>
+  
+          <div class="footer-colums">
+            <h4 class="footer-colums-title">Company</h4>
+            <ul class="footer-colums-list">
+              <li class="footer-colums-item"><a href="">About</a></li>
+              <li class="footer-colums-item"><a href="">Career</a></li>
+              <li class="footer-colums-item"><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+  
+          <div class="footer-colums">
+            <h4 class="footer-colums-title">Help</h4>
+            <ul class="footer-colums-list">
+              <li class="footer-colums-item"><a href="">FAQ</a></li>
+              <li class="footer-colums-item"><a href="">Help support</a></li>
+            </ul>
+          </div>
+        </div>
+        <span class="footer-bottom"
+          >Built by Jeremiah with 🤍 love in Lagos. Copyright 2021</span
+        >
+      </div>
+    </footer>
+  </body>
 </html>
